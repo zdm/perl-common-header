@@ -1,8 +1,14 @@
 # NAME
 
-common::header
+common::header - re-exporting the set of standard perl pragmas
 
 # SYNOPSIS
+
+    use common::header;
+
+    # or re-export
+
+    common::header->import;
 
 # DESCRIPTION
 
@@ -12,10 +18,4 @@ common::header
 
 # SEE ALSO
 
-# AUTHOR
-
-zdm <zdm@softvisio.net>
-
-# COPYRIGHT AND LICENSE
-
-This software is copyright (c) 2018 by zdm.
+common::sense

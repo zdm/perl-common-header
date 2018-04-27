@@ -1,4 +1,4 @@
-package common::header v0.0.0;
+package common::header v0.1.0;
 
 # NOTE !!!WARNING!!! don't use indirect with strawberry perl
 # https://rt.cpan.org/Public/Bug/Display.html?id=102321
