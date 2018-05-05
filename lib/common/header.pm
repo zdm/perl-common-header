@@ -47,8 +47,6 @@ no  if $^V ge 'v5.16', feature => 'array_base';
 
 use if $^V ge 'v5.22', re => 'strict';    # NOTE https://rt.perl.org/Public/Bug/Display.html?id=128313
 
-no multidimensional;
-
 # TODO mro caller
 BEGIN {
     eval <<"PERL";                        ## no critic qw[BuiltinFunctions::ProhibitStringyEval ErrorHandling::RequireCheckingReturnValueOfEval]
