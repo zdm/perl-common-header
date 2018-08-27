@@ -5,8 +5,9 @@ package common::header v0.2.0;
 
 use utf8;
 use strict qw[subs vars];
+no strict qw[refs];    ## no critic qw[TestingAndDebugging::ProhibitProlongedStrictureOverride]
 
-no warnings;    ## no critic qw[TestingAndDebugging::ProhibitNoWarnings]
+no warnings;           ## no critic qw[TestingAndDebugging::ProhibitNoWarnings]
 use warnings (
     'all',
     FATAL => qw[
